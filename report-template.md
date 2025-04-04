@@ -42,11 +42,11 @@ Using bulleted lists, describe the accuracy scores and the precision and recall 
     * Description of Model 1 Accuracy, Precision, and Recall scores.
         Model: Logistic Regression Results
         
-            Accuracy: 99.36%
+            Accuracy: 99.25%
 
-            Precision: 84.07%
+            Precision: 84.13%
 
-            Recall: 98.39%
+            Recall: 98.18%
 
             Confusion Matrix:
             [[18652, 113],
@@ -56,7 +56,7 @@ Using bulleted lists, describe the accuracy scores and the precision and recall 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 
 * Which one seems to perform best? How do you know it performs best?
-    The Logistic Regression model performs exceptionally well in predicting loan defaults, with a high overall accuracy of 99.37%. The recall score of 98.38% is especially strong, making the model highly effective at identifying high-risk applicants. This is crucial in financial decision-making, where minimizing defaults is of utmost importance. While the precision score is slightly lower (84.35%), this is manageable, as it means a small proportion of loans predicted as high-risk were actually low-risk. The model balances both precision and recall well.
+    The Logistic Regression model performs exceptionally well in predicting loan defaults, with a high overall accuracy of 99.25%. The recall score of 98.18% is especially strong, making the model highly effective at identifying high-risk applicants. This is crucial in financial decision-making, where minimizing defaults is of utmost importance. While the precision score is slightly lower (84.13%), this is manageable, as it means a small proportion of loans predicted as high-risk were actually low-risk. The model balances both precision and recall well.
 
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
     Given the high recall and solid precision, Logistic Regression is recommended for this analysis. The model performs reliably in identifying high-risk loans, which is the priority in predicting defaults.

@@ -23,13 +23,13 @@ The dataset provided consists of various attributes that might influence the ris
 ## Results
 
 - **Accuracy Score**:  
-  The accuracy score of the logistic regression model on the testing data is approximately **99.4%**.
+  The accuracy score of the logistic regression model on the testing data is approximately **99.25%**.
 
 - **Precision Score**:  
-  The precision score for predicting high-risk loans (1) is **84.08**.
+  The precision score for predicting high-risk loans (1) is **84.13%**.
 
 - **Recall Score**:  
-  The recall score for predicting high-risk loans (1) is **98.4**.
+  The recall score for predicting high-risk loans (1) is **98.18%**.
 
 ## Summary
 
